@@ -1,0 +1,51 @@
+.hero-bkg-container {
+	background-image: url(images/hero-bkg-1200x281.jpg);
+	background-position: right;
+}
+
+#plLogo {
+	background-image: url(images/logo-200x171.bmp);
+}
+
+@media (max-width: 767px) {
+	.cid-rohD7gbO0w amp-img {
+		max-height: 35px;
+		max-width: 35px;
+	}
+	.cid-rohDiyByvU .card {
+		margin-bottom: 30px;
+	}
+	.cid-rohNK1UjvL .items-col {
+		text-align: center;
+		margin: 2rem 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.cid-rohDiyByvU .mbr-row {
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	}
+	.cid-rohRwXooYj .mbr-section-subtitle {
+		margin-bottom: 0;
+	}
+	
+	.cid-rohDiyByvU .card {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.hero-bkg-container {
+		background-image: url(images/hero-bkg-2560x600.jpg);
+	}
+
+	#plLogo {
+		background-image: url(images/logo-transparent-inverted-sm.bmp);
+	}
+}
+
+@media (min-width: 1200px) {
+
+}

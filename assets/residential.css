@@ -1,0 +1,15 @@
+.hero-bkg-container {
+	background-image: url(images/residential-1200x281.jpg);
+	background-position: center;
+}
+
+.list {
+	padding-top: 0;
+}
+
+@media (min-width: 992px) {
+	.hero-bkg-container {
+		background-image: url(images/residential-2560x600.jpg);
+		background-position: center;
+	}
+}

@@ -1,0 +1,14 @@
+.hero-bkg-container {
+	background-image: url(images/other-1200x281.jpg);
+	background-position: left;
+}
+
+.list {
+	padding-top: 0;
+}
+
+@media (min-width: 992px) {
+	.hero-bkg-container {
+		background-image: url(images/other-2560x600.jpg);
+	}
+}
